@@ -10,6 +10,8 @@ public class Main {
         pileEntier.empiler(-19);
         pileEntier.empiler(2);
         pileEntier.empiler(5);
+        pileEntier.ajoutValeur(90, 2);
+        pileEntier.ajoutValeur(100, 0);
         System.out.println("PILE ENTIER");
         while(!pileEntier.estVide()){
             System.out.print(" "+pileEntier.depiler());
